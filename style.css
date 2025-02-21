@@ -1,0 +1,149 @@
+    audio {
+
+        display: block;
+    }
+
+
+    div {
+
+        position: relative;
+    }
+
+    .play {
+
+
+        background-color: rgb(14, 119, 84);
+        color: rgb(29, 221, 141);
+        block-size: 40px;
+        border-radius: 40%;
+        font-size: 1.5em;
+        outline: auto;
+        outline-color: rgb(0, 179, 179) ;
+        
+    }
+
+    .pause {
+
+        background-color: rgb(14, 119, 84);
+        color: rgb(29, 221, 141);
+        block-size: 40px;
+        border-radius: 40%;
+        font-size: 1.5rem;
+        outline: auto;
+        outline-color: rgb(0, 179, 179  ) ;
+        display: none;
+    }
+
+    form {
+
+        padding-inline: 350px;
+
+    }
+
+    fieldset {
+
+        max-width: fit-content;
+        color: white;
+    }
+
+    .disclaimer {
+
+        font-size: smaller;
+        color: white;
+    }
+
+
+    body {
+
+
+        background-color: rgb(18, 23, 19);
+    }
+
+    h1 {
+
+        color: rgb(0, 179, 179);
+        font-family: "Fondamento", cursive;
+        font-weight: 400;
+        font-style: normal;
+    }
+
+    h2 {
+        color: rgb(40, 79, 72);
+        font-family: "Fondamento", cursive;
+        font-weight: 400;
+        font-style: normal;
+      }
+
+      section {
+
+        background-color: rgba(67, 116, 107, 0.1);
+        text-align: left;
+      }
+
+      img {
+
+        display: block;
+        max-width: 310px;
+        border-radius: 10%;
+        outline: auto;
+        
+      }
+
+      .Ytb {
+
+        outline: none;
+        width: 35px;
+        display: inline;
+        padding-left: 5px;
+      }
+
+      .Ytb:hover {
+
+        width: 40px;
+
+      }
+
+      button {
+
+        margin-top: 15px;
+
+      }
+      
+      .titreOutput {
+
+        margin-top: 15px;
+        font-size: 1.53rem;
+        color: rgb(0, 179, 179);
+        font-family: "Fondamento", cursive;
+        font-weight: 400;
+        font-style: normal;
+        background-color: rgba(67, 116, 107, 0.1);
+      }
+
+      .descOutput {
+
+        font-size: 1.43rem;
+        color: rgb(40, 79, 72);
+        font-family: "Fondamento", cursive;
+        font-weight: 400;
+        font-style: normal;
+        background-color: rgba(67, 116, 107, 0.1);
+      }
+
+      footer {
+        background-color: rgba(67, 116, 107, 0.1);
+        color: #fff;
+        padding: 20px;
+        text-align: center;
+        position: relative;
+    }
+    /* Cachez les crédits au départ */
+    #credits-content {
+        display: none; 
+        margin-top: 10px;
+        text-align: left;
+    }
+    /* Affichez les crédits au survol */
+    #credits:hover #credits-content {
+        display: block; 
+    }

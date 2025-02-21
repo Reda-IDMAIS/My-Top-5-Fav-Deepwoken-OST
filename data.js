@@ -1,0 +1,19 @@
+//Liste des musiques
+var musiques = ["Lacrimosa dies illa - Naktigonis", "A God, Manufactured - Naktigonis", "INSOMNIA - Naktigonis", "The Gideshu March - Naktigonis", "And Let Slip The Hounds Of War - Naktigonis"];
+
+//Data des descriptions des musiques
+var descMusiques = ["LacrimosaDesc", "ChaserDesc", "INSOMNIAdesc", "StarsweptDesc", "AuthorityDesc", "WarDesc"];
+descMusiques[0] = "Musique d'ambiance inquiétante qui se joue uniquement lorsque le danger vous menace dans Les Profondeurs, la zone la plus dangereuse du jeu faisant office de prison des défunts. Mourrir dans cette zone signifie la perte totale de son personnage. C'est pour cela que j'aime cette musique, elle fait parfaitement comprendre le sentiment de danger pur à son auditeur."
+descMusiques[1] = "Musique de combat contre Chaser, l'Érudit du Sang Brûlant. La bataille se situe au deuxième niveau des Profondeurs, dans une boucle spatio-temporelle qui est illustrée par le bruit de verre brisé au début de la musique. Ce même bruit, en inversé, se retrouve à la toute fin de la bande son. J'aime ce clin d'œil. J'aime encore plus la ressemblance de certains instruments avec 'Lacrimosa Dies Illa', ce qui nous rappelle l'immense chemin que nous avons parcouru entre le premier niveau et le deuxième des Profondeurs."
+descMusiques[2] = "J'aime cette musique surtout pour son titre. Le jeu Deepwoken a toujours eu, avant la mise à jour ajoutant le deuxième niveau, une symbolique avec le fait d'être endormi et de laisser son âme plonger plus profondément. Alors que 'Lacrimosa Dies Illa' nous rappelle un danger oppressant et constant, 'INSOMNIA' se joue lorsque le danger vous frappe dans le deuxième niveau des Profondeurs, dont l'environnement n'a absolument rien à voir avec celui du premier. D'où le nom 'INSOMNIA', le joueur a toujours été habitué à cette thématique du sommeil alors qu'il se retrouve maintenant confronté à un enfer où le sommeil n'est plus permis. Contrairement à 'Lacrimosa Dies Illa', 'INSOMNIA' transmet non pas un sentiment de danger mais celui de la folie pure, d'où les cris."
+descMusiques[3] = "Hymne national d'une des factions du jeu : l'Autorité Centrale. C'est une des seules musiques qui n'ait pas été commandée par Monad Studio, mais réalisée par l'artiste musical lui-même pour son amour du jeu. Un auditeur a un jour dit 'Cette musique m'a rendu patriotique pour une nation qui n'existe même pas', et c'est pour cela que j'aime cette musique. Surtout que cette faction joue un rôle important dans l'histoire du jeu."
+descMusiques[4] = "Musique se jouant lors du siège d'Etris par l'Autorité Centrale. Etrea est en règle générale la faction principale du protagoniste, subissant occasionnellement des attaques de la part de l'Autorité à cause d'un complot secret d'État orchestré par le Ministère. J'aime cette musique car son titre fait référence à une phrase présente dans la pièce de théâtre 'Jules César' de Shakespeare. Cette musique transmet un sentiment d'opposition des idéaux à la même manière qu'une guerre, car si on tend l'oreille on peut remarquer des leitmotiv de 'The Gideshu March', de la musique d'Etris ainsi que ceux du Ministère."
+
+
+//Data des illustrations des musiques
+var illuMusiques = ["illustrations musiques/LacrimosaIMG.webp", "illustrations musiques/ChaserIMG.webp", "illustrations musiques/The Eternal Gale combat contre Bounder.webp", "illustrations musiques/AuthorityIMG.webp", "illustrations musiques/WarIMG.webp"]
+
+
+//Data liens Youtube des musiques
+
+var liensMusiques = ["https://youtu.be/ib-iGKejQxU?si=uHDL8k1qamqFGMFg", "https://youtu.be/HnECa7409Ek?si=8TsN2bYRSmQmMFdj", "https://youtu.be/YMJBMjergiI?si=LTlQXkzubLLPgnfW", "https://youtu.be/xtWc0r3yWgA?si=SF4oJYAWzjWNHRYe", "https://youtu.be/I_vWBoeyBoY?si=hXmQMq7J8RilpO5c"]
